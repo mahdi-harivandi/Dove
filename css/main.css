@@ -6,3 +6,20 @@
 *{
     font-family: yekan;
 }
+
+/* navbar  */
+.line_1 , .line_2 , .line_3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+}
+  .change .line_1{
+    transform: rotate(-45deg) translate(-5px , 6px);
+}
+  .change .line_2{
+    opacity: 0;
+}
+  .change .line_3{
+    transform: rotate(45deg) translate(-5px , -6px);
+}
